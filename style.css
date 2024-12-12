@@ -19,15 +19,6 @@ p {
     line-height: 1.5;
 }
 
-ul, ol {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin: 10px 0;
-}
-
 a {
     color: blue;
     text-decoration: none;
@@ -36,3 +27,22 @@ a {
 a:hover {
     text-decoration: underline;
 }
+button {
+
+    background-color: grey; /* Color inicial del botón */
+  
+    color: white;
+  
+    padding: 10px 20px;
+  
+    border: none;
+  
+    cursor: pointer;
+  
+  }
+  
+  button:hover {
+  
+    background-color: greenyellow; /* Color del botón cuando el ratón pasa por encima */
+  
+  }
